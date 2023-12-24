@@ -1,0 +1,12 @@
+def ola(msg):
+    return msg
+
+print(ola('dias'))
+
+ola2 = ola
+
+def ex(function):
+    return function('executei essa funcção')
+
+exe1 = ex(ola2)
+print(exe1)
